@@ -1,4 +1,3 @@
-
 function setup() {
   createCanvas(650, 600);
 }
@@ -6,10 +5,10 @@ function setup() {
 function draw() {
   textSize(15)
   background(245);
-  fill(55,150,250)
+  fill(100,0,0)
   center(5)
   text('center(size)',width/2-20,height/2+15)
-  pent(250,220,65,1)
+  pent(400,220,65,1)
   text('pent(x,y,size,lineT)',200,270)
   hexagon(100,200,50,1)
   text('hexagon(x,y,size,lineT)',35,275)
@@ -24,7 +23,7 @@ function draw() {
   fill(0,100,0)
   heart(550,95,50,1)
   text('heart(x,y,size,lineT)',500,170)
-  fill(0,68,255)
+  fill(0,100,0)
   deca(550,300,55,1)
   text("deca(x,y,size,lineT)",490,350)
   trap(400,150,100,1)
